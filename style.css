@@ -45,6 +45,7 @@ body {
 
 /* TO-DO List */
 h1 {
+    color: rgb(99, 97, 97);
     text-align: center;
     text-shadow: 2px 2px rgb(213, 189, 175);
     margin-bottom: 15px;
@@ -60,6 +61,7 @@ h1 {
 
 /* only input field */
 input {
+    font-weight: 600;
     background-color: rgb(237, 237, 233);
     /* text-align: center; */
     border-radius: 10px;
@@ -107,6 +109,10 @@ li {
     cursor: pointer;
 }
 
+li:hover{
+    text-decoration: underline;
+}
+
 /* delete button */
 ul button {
     opacity: 0.8;
@@ -119,6 +125,7 @@ ul button {
 ul button:hover {
     cursor: pointer;
     opacity: 1;
+    text-decoration: none;
 }
 
 .completed {
