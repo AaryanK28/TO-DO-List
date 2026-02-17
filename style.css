@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color:rgb(38, 159, 159); */
+    background-color: rgb(237, 237, 233);
+}
+
+.container {
+    width: 40%;
+    height: 80%;
+
+    background-color: rgb(227, 213, 202);
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 6px rgb(82, 81, 81);
+
+    overflow: auto; /*adds scroll bar automatically*/
+}
+
+/* Scrollbar width */
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track (background) */
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Thumb (the moving part) */
+.container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* TO-DO List */
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(213, 189, 175);
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(237, 237, 233);
+}
+
+/* Input and add task button */
+#task {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+/* only input field */
+input {
+    background-color: rgb(237, 237, 233);
+    /* text-align: center; */
+    border-radius: 10px;
+    flex: 1;
+    padding: 8px;
+
+}
+
+/* add task button */
+#addButton {
+    background-color: rgb(237, 237, 233);
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 8px 12px;
+
+}
+
+#addButton:hover {
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+ul {
+    margin: 10px;
+    margin-top: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-weight: 600;
+    font-size: large;
+    text-shadow: 2px white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    /* background-color:rgb(71, 191, 191); */
+    /* background-color:rgb(38, 159, 159); */
+    background-color: rgb(213, 189, 175);
+    padding: 8px;
+    padding-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* delete button */
+ul button {
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(227, 213, 202);
+
+}
+
+ul button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+
+/*
+.container {
+    background-color: aqua;
+    border-radius: 10px;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid white;
+}
+
+#input {
+    margin: 10px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; */
+
+
+/* margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; */
+
+
+/* li {
+    margin-left: 12px;
+}
+
+ul button {
+    width: 69px;
+    margin-right: 11px;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+} */
